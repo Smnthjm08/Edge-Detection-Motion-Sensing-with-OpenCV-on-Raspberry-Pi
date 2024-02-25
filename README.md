@@ -1,7 +1,32 @@
-# Edge-Detection-Motion-Sensing-with-OpenCV-on-Raspberry-Pi
-<h2>Overview:</h2>
+# Edge Detection & Motion Sensing with OpenCV on Raspberry Pi
 
-This project is about Edge Detection & Motion Sensing with OpenCV on Raspberry Pi 4.
-In Image Processing and Computer Vision, Edge Detection and Motion Sensing are vital techniques. Edge detection refines visual data by highlighting features, while motion sensing interprets movement by analyzing image sequences. Both improve understanding of visual data.
+## Overview:
+This project utilizes OpenCV on a Raspberry Pi 4 for Edge Detection & Motion Sensing. These techniques are crucial in Image Processing & Computer Vision. Edge Detection enhances visual data by highlighting features, while Motion Sensing interprets movement in image sequences.
 
-In this project, we will use OpenCV on a Raspberry Pi 4 to process video frames. To detect edges, we will apply the Canny edge detection method on grayscale versions of the frames. To detect motion, we will calculate the Mean Squared Error (MSE) between consecutive grayscale frames, where a significant change in MSE indicates motion. This setup provides a real-time visual representation of edges and potential motion in the video feed.
+In this project, OpenCV processes video frames on Raspberry Pi 4. Canny edge detection on grayscale frames identifies edges, while Mean Squared Error (MSE) between frames detects motion. This setup offers real-time edge & motion representation.
+
+## Components Required:
+- Raspberry Pi 4
+- Raspberry Pi Camera
+- SD Card 16/32 GB
+- 5V, 3A DC Adapter for RPi
+- LCD Display (Optional)
+- Mouse & Keyboard (Optional)
+
+## Raspberry Pi Camera Connection:
+Connect the Camera Module to the Raspberry Pi 4 using the Camera Connector. Enable the Camera Module via `sudo raspi-config` in the terminal.
+
+## Mean Squared Error (MSE) & Canny Edge Detection:
+MSE measures differences between images. Canny Edge Detection is a multi-step algorithm for edge detection.
+
+## Raspberry Pi Setup:
+Install OpenCV and picamera. See the guide for OpenCV installation.
+
+## Python Code for Edge Detection & Motion Sensing:
+Refer to the provided Python code for implementation details.
+
+## Testing & Results:
+After running the code, observe four windows displaying processed images: original, grayscale, compensated, and edge detection. Thonny Shell displays estimated FPS and motion detection status.
+
+## Conclusion:
+This project demonstrates integrating multiple image processing techniques using OpenCV on Raspberry Pi 4. It lays the groundwork for advanced surveillance systems operating in varying conditions, showcasing OpenCV's power and flexibility.
