@@ -25,6 +25,10 @@ Install OpenCV and picamera. See the guide for OpenCV installation.
 ## Python Code for Edge Detection & Motion Sensing:
 Refer to the provided Python code for implementation details.
 
+## Output:
+![703141C6-7B81-4A66-ABFA-10107D26E61A_1_201_a](https://github.com/Smnthjm08/Edge-Detection-Motion-Sensing-with-OpenCV-on-Raspberry-Pi/assets/119963915/92430cc7-05b1-4df2-a9c4-90778da7673d)
+
+
 ## Testing & Results:
 After running the code, observe four windows displaying processed images: original, grayscale, compensated, and edge detection. Thonny Shell displays estimated FPS and motion detection status.
 
